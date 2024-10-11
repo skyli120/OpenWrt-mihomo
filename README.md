@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/morytyann/OpenWrt-mihomo?style=for-the-badge&logo=github) ![GitHub Tag](https://img.shields.io/github/v/release/morytyann/OpenWrt-mihomo?style=for-the-badge&logo=github) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/morytyann/OpenWrt-mihomo/total?style=for-the-badge&logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/morytyann/OpenWrt-mihomo?style=for-the-badge&logo=github) [![Telegram](https://img.shields.io/badge/Contact-Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/mihomotproxy)
+![GitHub License](https://img.shields.io/github/license/skyli120/OpenWrt-mihomo?style=for-the-badge&logo=github) ![GitHub Tag](https://img.shields.io/github/v/release/skyli120/OpenWrt-mihomo?style=for-the-badge&logo=github) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/skyli120/OpenWrt-mihomo/total?style=for-the-badge&logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/skyli120/OpenWrt-mihomo?style=for-the-badge&logo=github) [![Telegram](https://img.shields.io/badge/Contact-Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/mihomotproxy)
 
 # MihomoTProxy
 
@@ -25,7 +25,7 @@ Transparent Proxy with Mihomo on OpenWrt.
 
 ```shell
 # only needs to be run once
-curl -s -L https://mirror.ghproxy.com/https://github.com/morytyann/OpenWrt-mihomo/raw/refs/heads/main/feed.sh | ash
+curl -s -L https://mirror.ghproxy.com/https://github.com/skyli120/OpenWrt-mihomo/raw/refs/heads/main/feed.sh | ash
 ```
 
 2. Install
@@ -40,18 +40,18 @@ opkg install luci-i18n-mihomo-zh-cn
 ### B. Install From Release
 
 ```shell
-curl -s -L https://mirror.ghproxy.com/https://github.com/morytyann/OpenWrt-mihomo/raw/refs/heads/main/install.sh | ash
+curl -s -L https://mirror.ghproxy.com/https://github.com/skyli120/OpenWrt-mihomo/raw/refs/heads/main/install.sh | ash
 ```
 
 ## Uninstall & Reset
 
 ```shell
-curl -s -L https://mirror.ghproxy.com/https://github.com/morytyann/OpenWrt-mihomo/raw/refs/heads/main/uninstall.sh | ash
+curl -s -L https://mirror.ghproxy.com/https://github.com/skyli120/OpenWrt-mihomo/raw/refs/heads/main/uninstall.sh | ash
 ```
 
 ## How To Use
 
-See [Wiki](https://github.com/morytyann/OpenWrt-mihomo/wiki)
+See [Wiki](https://github.com/skyli120/OpenWrt-mihomo/wiki)
 
 ## How does it work
 
@@ -68,7 +68,7 @@ Note that the steps above may change base on config.
 
 ```shell
 # add feed
-echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
+echo "src-git mihomo https://github.com/skyli120/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
 # update & install feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
